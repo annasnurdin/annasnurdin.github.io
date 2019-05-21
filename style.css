@@ -51,11 +51,14 @@ header{
 	text-transform: uppercase;
 }
 .contact img{
-	max-width: 3em;
+	max-width: 3.5em;
 	padding: 1em 0 0 1em;
 }
 @media (max-width: 575.98px){
-	
+	.contact img{
+	  max-width: 2em;
+	  padding: 1em 0 0 1em;
+}
 	.banner{
 		color: #ffffff;
 	}
